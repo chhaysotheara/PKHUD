@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform                  = :ios, '8.0'
   s.ios.deployment_target     = '8.0'
   s.requires_arc              = true
-  s.source                    = { :git => 'https://github.com/pkluz/PKHUD.git', :tag => s.version.to_s }
+  s.source                    = { :git => 'https://github.com/chhaysotheara/PKHUD.git', :tag => s.version.to_s }
   s.source_files              = 'PKHUD/**/*.{h,swift}'
   s.resource_bundle           = { 'PKHUDResources' => 'PKHUD/*.xcassets' }
   s.swift_version             = '5.0'  
